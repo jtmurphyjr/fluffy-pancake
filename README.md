@@ -2,14 +2,16 @@
 A collection of projects and tasks demonstrating a proficiency in cyber and network security related programs.
 ## Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
-![Network Diagram](Diagrams/Network Diagram.jpg)
+-![Network Diagram](Diagrams/Network Diagram.jpg)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
-[Ansible/filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
-[Ansible/metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
-[Ansible/filebeat-config.yml](Ansible/filebeat-config.yml)
-[Ansible/metricbeat-config.yml](Ansible/metricbeat-config.yml)
-[Ansible/pentest.yml](Ansible/pentest.yml)
-[Ansible/elk.yml](Ansible/elk.yml)
+
+-[Ansible/filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
+-[Ansible/metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
+-[Ansible/filebeat-config.yml](Ansible/filebeat-config.yml)
+-[Ansible/metricbeat-config.yml](Ansible/metricbeat-config.yml)
+-[Ansible/pentest.yml](Ansible/pentest.yml)
+-[Ansible/elk.yml](Ansible/elk.yml)
+
 This document contains the following details:
 - Description of the Topology
 - Access Policies
