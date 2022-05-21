@@ -2,14 +2,14 @@
 A collection of projects and tasks demonstrating a proficiency in cyber and network security related programs.
 ## Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
-/Diagrams/Network Diagram.jpg
+![Network Diagram](Diagrams/Network Diagram.jpg)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
-/Ansible/filebeat-playbook.yml
-/Ansible/metricbeat-playbook.yml
-/Ansible/filebeat-config.yml
-/Ansible/metricbeat-config.yml
-/Ansible/pentest.yml
-/Ansible/elk.yml
+[Ansible/filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
+[Ansible/metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
+[Ansible/filebeat-config.yml](Ansible/filebeat-config.yml)
+[Ansible/metricbeat-config.yml](Ansible/metricbeat-config.yml)
+[Ansible/pentest.yml](Ansible/pentest.yml)
+[Ansible/elk.yml](Ansible/elk.yml)
 This document contains the following details:
 - Description of the Topology
 - Access Policies
@@ -26,7 +26,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 What does Filebeat watch for? Log Data
 What does Metricbeat record? Metrics and Statistics
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.1.4   | Linux            |
@@ -55,7 +54,7 @@ Install Docker python module
 Increase virtual memory
 Download and launch a docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-fluffy-pancake/Images/Docker_ps.png
+![Docker_ps](fluffy-pancake/Images/Docker_ps.png)
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 Web 1 10.0.1.5
@@ -73,7 +72,6 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana (http://13.73.99.133/app/kibana#/home) to check that the installation worked as expected.
 - _Which file is the playbook? filebeat-playbook.yml
 - _Where do you copy it? /etc/ansible/
-- _Which file do you update to make Ansible run the playbook on a specific machine?/etc/ansible/hosts
+- _Which file do you update to make Ansible run the playbook on a specific machine? /etc/ansible/hosts
 - _How do I specify which machine to install the ELK server on versus which to install Filebeat on? 2 separate groups: webservers (IPs of VMs where Filebeat is installed) & elkservers (IP of the VM where elk is installed)
 - _Which URL do you navigate to in order to check that the ELK server is running? http://13.73.99.133:5601/
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
