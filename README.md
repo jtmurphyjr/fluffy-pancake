@@ -54,7 +54,7 @@ Install Docker python module
 Increase virtual memory
 Download and launch a docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-![Docker_ps](fluffy-pancake/Images/Docker_ps.png)
+![alt text](https://github.com/jtmurphyjr/fluffy-pancake/blob/main/Images/Docker_ps.png "docker ps")
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 Web 1 10.0.1.5
