@@ -73,7 +73,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the playbook file to Ansible Node.
 - Update the hosts file to include webserver and elk.
-- Run the playbook, and navigate to Kibana (http://13.73.99.133/app/kibana#/home) to check that the installation worked as expected.
+- Run the playbook, and navigate to Kibana (http://13.73.99.133:5601/app/kibana#/home) to check that the installation worked as expected.
 - _Which file is the playbook? filebeat-playbook.yml
 - _Where do you copy it? /etc/ansible/
 - _Which file do you update to make Ansible run the playbook on a specific machine? /etc/ansible/hosts
