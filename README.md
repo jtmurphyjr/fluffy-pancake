@@ -2,7 +2,9 @@
 A collection of projects and tasks demonstrating a proficiency in cyber and network security related programs.
 ## Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
-![alt text](https://github.com/jtmurphyjr/fluffy-pancake/blob/main/Images/Docker_ps.png "Network Diagram")
+
+![alt text](https://github.com/jtmurphyjr/fluffy-pancake/blob/main/Diagrams/Network%20Diagram.jpg "Network Diagram")
+
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
 -[Ansible/filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
@@ -54,7 +56,9 @@ Install Docker python module
 Increase virtual memory
 Download and launch a docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
 ![alt text](https://github.com/jtmurphyjr/fluffy-pancake/blob/main/Images/Docker_ps.png "docker ps")
+
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 Web 1 10.0.1.5
