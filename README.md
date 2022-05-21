@@ -64,8 +64,6 @@ This ELK server is configured to monitor the following machines:
 Web 1 10.0.1.5
 Web 2 10.0.2.6
 We have installed the following Beats on these machines:
-Microbeats
-These Beats allow us to collect the following information from each machine:
 Filebeat - collects data about the file system
 Metricbeat - collects machine metrics, such as uptime
 ### Using the Playbook
